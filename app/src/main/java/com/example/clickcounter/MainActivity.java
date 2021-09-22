@@ -54,12 +54,13 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void reset() {
-        clickCount.setOnClickListener(new View.OnClickListener() {
+        clickCount.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View view) {
+            public boolean onLongClick(View view) {
                 count = 0;
                 clickCount.setText(Integer.toString(count));
                 colorChange();
+                return true;
             }
         });
     }
