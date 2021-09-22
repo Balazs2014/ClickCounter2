@@ -28,32 +28,6 @@ public class MainActivity extends AppCompatActivity {
         reset();
         countPlus();
         countMinus();
-        /*btnPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                count++;
-                clickCount.setText(Integer.toString(count));
-                colorChange();
-            }
-        });*/
-
-       /* btnMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                count--;
-                clickCount.setText(Integer.toString(count));
-                colorChange();
-            }
-        });*/
-
-        /*clickCount.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                count = 0;
-                clickCount.setText(Integer.toString(count));
-                colorChange();
-            }
-        });*/
     }
 
     private void countMinus() {
